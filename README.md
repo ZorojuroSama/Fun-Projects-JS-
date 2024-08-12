@@ -12,7 +12,7 @@ Navigate to the specific project folder and open the `index.html` file in your b
 
 ## Projects
 
-- [Project 1: Bubble Game](/BubbleGameJS/)
+- [Project 1: Bubble Game](Bubble%20Game%20JS/)
   
 ## Folder Structure
 
