@@ -13,6 +13,7 @@ Navigate to the specific project folder and open the `index.html` file in your b
 ## Projects
 
 - [Project 1: Bubble Game](Bubble%20Game%20JS/)
+- [Project 2: Button Ripple Effect](Button%20Ripple/)
   
 ## Folder Structure
 
@@ -23,4 +24,8 @@ Fun-Projects-JS-
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
-
+|
+├── Button-Ripple
+|   ├── index.html
+│   ├── script.js
+│   └── style.css
