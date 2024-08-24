@@ -14,6 +14,7 @@ Navigate to the specific project folder and open the `index.html` file in your b
 
 - [Project 1: Bubble Game](Bubble%20Game%20JS/)
 - [Project 2: Button Ripple Effect](Button%20Ripple/)
+- [Project 3: Random Image Loader](Random20%Image20%Loader/)
   
 ## Folder Structure
 
