@@ -36,6 +36,7 @@ Fun-Projects-JS-
 |   ├── index.html
 │   ├── script.js
 │   └── style.css
+|
 ├── Todo-With-Local-Storage
 |   ├── index.html
 │   ├── script.js
