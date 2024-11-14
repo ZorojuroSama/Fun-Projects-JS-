@@ -15,6 +15,7 @@ Navigate to the specific project folder and open the `index.html` file in your b
 - [Project 1: Bubble Game](Bubble%20Game%20JS/)
 - [Project 2: Button Ripple Effect](Button%20Ripple/)
 - [Project 3: Random Image Loader](Random%20Images%20Loader/)
+- [Project 3: Todo With Local Storage](Todo%20With%20Local%20Storage/)
   
 ## Folder Structure
 
@@ -32,6 +33,11 @@ Fun-Projects-JS-
 │   └── style.css
 |
 ├── Random-Images-Loader
+|   ├── index.html
+│   ├── script.js
+│   └── style.css
+|
+├── Todo-With-Local-Storage
 |   ├── index.html
 │   ├── script.js
 │   └── style.css
