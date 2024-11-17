@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const products = [
-    { id: 1, name: "Product 1", price: 39.99 },
-    { id: 2, name: "Product 2", price: 19.99 },
-    { id: 3, name: "Product 3", price: 29.99 },
+    { id: 1, name: "Product 1", price: 399.99 },
+    { id: 2, name: "Product 2", price: 199.99 },
+    { id: 3, name: "Product 3", price: 249.99 },
   ];
 
   const productCart = [];
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const productDiv = document.createElement("div");
     productDiv.classList.add("product");
     productDiv.innerHTML = `
-        <span>${product.name}  -  $${product.price.toFixed(2)}</span>
+        <span>${product.name}  -  ₹${product.price.toFixed(2)}</span>
         <button data-id="${product.id}">Add to Cart</button>`;
     productList.appendChild(productDiv);
   });
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cartItem.innerHTML = `
         <div class="cart-item" >
         <div class="item-name">
-        ${item.name} - $${item.price.toFixed(2)}
+        ${item.name} - ₹${item.price.toFixed(2)}
         </div>
         <button class="remove-btn" data-index="${index}">Remove</button>
         </div>`;
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     } else {
       emptyCartMessage.classList.remove("hidden");
-      totalPrice.innerText = `$0.00`;
+      totalPrice.innerText = `₹0.00`;
     }
   }
 
