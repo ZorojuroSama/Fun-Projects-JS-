@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <button class="remove-btn" data-index="${index}">Remove</button>
         </div>`;
         cartItems.appendChild(cartItem);
-        totalPrice.innerText = `${total.toFixed(2)}`;
+        totalPrice.innerText = `₹${total.toFixed(2)}`;
       });
 
       const removeBtns = document.querySelectorAll(".remove-btn");
